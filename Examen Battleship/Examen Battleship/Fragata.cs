@@ -23,6 +23,29 @@ namespace Examen_Battleship
         public void FrigateEspecial(Board board, string coord)
         {
             //Hacer que la coordenada dada se relacione con las casillas de su alrededor
+            // Coord ej A1 = 1,1    E3 = 5,1
+            // coordenada = a,b --> puntos a buscar = a-1,b-1  a-1,b   a-1, b+1 y asi sucesivamente
+
+            string[] each;
+            string word;
+            string number;
+            each = coord.Split();
+            word = each[0];
+            number = each[1];
+
+            for(int a = 0, a < 10; a++)
+            {
+                for (int b = 0, a < 10, b++)
+
+
+            }
+
+            
+
+
+
+
+
 
             
             
