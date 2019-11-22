@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Examen_Battleship;
 
-namespace Examen_Battleship
+namespace Examen_Battleship.Static
 {
-    class Program
+    public static class Visualization
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
