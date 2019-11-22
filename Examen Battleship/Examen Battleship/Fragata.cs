@@ -14,14 +14,18 @@ namespace Examen_Battleship
             Lifepoints = 4;
             Name = "Fragata";
             Effect = effect;
+            
 
         }
 
         //Especial (Metodo)
 
-        public void FrigateEspecial()
+        public void FrigateEspecial(Board board, string coord)
         {
-        
+            //Hacer que la coordenada dada se relacione con las casillas de su alrededor
+
+            
+            
         }
 
     

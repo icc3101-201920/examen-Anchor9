@@ -22,19 +22,25 @@ namespace Examen_Battleship
 
 
         //Metodos
-        public void Shot()
+        public void Shot(Board board, string coord)
         {
 
 
         }
 
-        public void UseEspecial()
+        public void UseEspecial(Ship ship, Board board)
         { 
         
         }
 
-        public void MoveShip()
+        public void MoveShip(Ship Ship, string coord)
         {
+
+        }
+
+        public void SetShip(Ship ship, string coord)
+        {
+
 
         }
 

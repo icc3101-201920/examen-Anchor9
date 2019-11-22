@@ -11,6 +11,7 @@ namespace Examen_Battleship
         private string coord;
         private int[,] board;
 
+
         public string Coord
         {
             get
@@ -43,18 +44,24 @@ namespace Examen_Battleship
 
         {
             //Matriz = tablero de 10 x 10, ahora hay que rellenarla con valores (0 y 1 mas facil)
-            this.board = new int[10, 10];
-            int[,] tableroJuego = { { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }, { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 } };
+            this.board = new int[10, 10]; 
+           // this.board = { {1,1,1,1,1,1,1,1,1,1},{1,1,1,1,1,1,1,1,1,1} }
 
         }
 
-        //Metodos 
+        
 
         
-        //Marca en el tablero donde está el misil que llega
-        public void MarkShot()
-        {
 
+        //Metodos 
+
+
+
+        //Marca en el tablero donde está el misil que llega
+        public void MarkShot(Board board)
+        {
+          
+            
         }
 
         
